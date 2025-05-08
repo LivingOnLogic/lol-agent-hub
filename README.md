@@ -1,13 +1,12 @@
-# 🤖 lol-agent-hub
+# 🤖 buy-agent-hub
 
-**Living On Logic Agent Hub**  
 A centralized interface for managing, monitoring, and scaling decentralized agents running across multiple MCP servers.
 
 ---
 
-## 🔍 What is `lol-agent-hub`?
+## 🔍 What is `buy-agent-hub`?
 
-The `lol-agent-hub` is the main control plane for agents in the **Living On Logic** ecosystem. It enables you to create, deploy, schedule, and monitor autonomous agents that interact with MCP servers to execute tasks in finance, governance, trading, sentiment analysis, and more.
+The `buy-agent-hub` is the main control plane for agents. It enables you to create, deploy, schedule, and monitor autonomous agents that interact with MCP servers to execute tasks in finance, governance, trading, sentiment analysis, and more.
 
 ---
 
@@ -52,8 +51,8 @@ The `lol-agent-hub` is the main control plane for agents in the **Living On Logi
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/LivingOnLogic/lol-agent-hub.git
-cd lol-agent-hub
+git clone https://github.com/buyproject/buy-agent-hub.git
+cd buy-agent-hub
 ```
 
 ### 2. Install dependencies
@@ -66,7 +65,7 @@ npm install
 
 ```env
 AGENT_WALLET_PRIVATE_KEY=...
-REGISTRY_URL=https://registry.livingonlogic.xyz
+REGISTRY_URL=https://registry.buyproject.io
 MCP_ENDPOINT=https://mcp.example.net
 ```
 
